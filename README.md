@@ -1,2 +1,2 @@
-# OTF
-repo para practicar tareas
+# goit-markup-hw-03.
+tarea3

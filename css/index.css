@@ -66,36 +66,30 @@ nav a{
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
+    margin:auto
 }
 
 h1{
     position: absolute;
-width: 696px;
-height: 120px;
-left: 448px;
-top: 280px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+    width: 696px;
+    padding-left: 462px;
+    padding-top: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-bottom: 30px;
 }
 .banner button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    position: absolute;
+    margin-left: 700px;
     width: 261px;
     height: 50px;
-    left: 666px;
-    top: 430px;
+    left: 700px;
+    margin-top: 380px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -105,8 +99,6 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
     text-align:center;
     letter-spacing: 0.06em;
 }
@@ -117,20 +109,16 @@ button:hover{
 .text{
    padding-top: 95px;
    padding-bottom: 94px;
-  
-   
 }
 .text div{
     width: 270px;
     display:inline-flex;
     flex-wrap: wrap; 
     padding-right: 30px;
-    
 }
-.text .det{
+.text .details{
     padding-left: 215px;
 }
-
 .text div h4{
     font-family: 'Roboto';
     font-style: normal;
@@ -153,7 +141,8 @@ button:hover{
     margin: auto;
     padding-top: 10px;
 }
-.dedicate p{
+/* we dedicate*/
+.dedicate h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -162,16 +151,25 @@ button:hover{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: auto;
+    
+    
 }
 .dedicate img{
-    padding-top: 55.05px;
-    padding-right: 30.36px;
+    width: 370px;
+    height: 294px;
+    padding-top: 50px;
+    padding-right: 30px;
     padding-bottom: 94px;
 }
+/*first img*/
 .dedicate .img1{
     padding-left: 215px;
 }
-.team p{
+.team{
+    background-color: #F5F4FA;;
+}
+.team h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -180,11 +178,13 @@ button:hover{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 94px;
 }
+/*team picture*/
 #picture{
+    padding-top: 50px;
     display:inline-flex;
     flex-wrap: wrap;
-   
 }
 #picture div{
     margin-right: 37px;
@@ -192,13 +192,12 @@ button:hover{
     border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
-    padding-bottom: 30px;
     margin-bottom: 94px;
 }
 #picture .andres{
     margin-left: 215px;
 }
-.team div h4{
+#picture div h4{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -206,16 +205,21 @@ button:hover{
     line-height: 19px;
     color: #212121;
     text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
     
 }
-.team div p{
+#picture div h6{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     color: #757575;
+    margin: auto;
+    text-align: center;
+
 }
 /* footer */
 footer{
